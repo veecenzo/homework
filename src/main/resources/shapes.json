@@ -1,0 +1,47 @@
+[
+  {
+    "type": "circle",
+    "parameters" :[ 0.0, 1.1, 11.5]
+  },
+  {
+    "type": "donut",
+    "parameters" :[ 2.5, 1.9, 14.2, 5.0]
+  },
+  {
+    "type": "triangle",
+    "parameters" :[ 27.5, 11.2, 12.5, 22.4, 34.5, 33.7]
+  },
+  {
+    "type": "donut",
+    "parameters" :[ 0.0, 1.1, 11.5, 2]
+  },
+  {
+    "type": "circle",
+    "parameters" :[ -2.4, -1.1, 25.5]
+  },
+  {
+    "type": "circle",
+    "parameters" :[ 0.0, 1.1, 11.5]
+  },
+  {
+    "type": "circle",
+    "parameters" :[ -2.4, -1.1, 25.5]
+  },
+  {
+    "type": "circle",
+    "parameters" :[ 0.0, 1.1, 11.5]
+  },
+  {
+    "type": "circle",
+    "parameters" :[ -2.4, -1.1, 25.5]
+  },
+  {
+    "type": "circle",
+    "parameters" :[ 0.0, 1.1, 11.5]
+  },
+  {
+    "randomProperty": "foo foo bar bar",
+    "hmmm": 1337,
+    "Hello" :"It's me"
+  }
+]

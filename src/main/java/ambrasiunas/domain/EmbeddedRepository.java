@@ -2,10 +2,6 @@
  * Author Vytautas Ambrasiunas 2018.
  */
 
-/*
- * Author Vytautas Ambrasiunas 2018.
- */
-
 package ambrasiunas.domain;
 
 import ambrasiunas.domain.shapes.AnyShape;
@@ -43,10 +39,10 @@ public class EmbeddedRepository implements ShapesRepository {
         Long totalShapeRecords = getRecordCount();
         List<AnyShape> allShapes = null;
         if (null != totalShapeRecords) {
-            Long pageSize = 5L;
+            Long pageSize = 10L;
             Long totalPages = totalShapeRecords / pageSize;
-            if (totalPages == 0) {
-                totalPages = 1L;
+            if (totalPages == 0 || totalPages % totalShapeRecords != 0) {
+                totalPages = totalPages + 1L;
             }
             allShapes = new ArrayList<>();
             for (Integer i = 0; i < totalPages; i++) {
